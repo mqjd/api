@@ -1,0 +1,22 @@
+[{
+  "id": "btgg",
+  "name": "BTGG",
+  "url": "https://www.btgg.cc/search?q={q}&p={p}",
+  "items": ".list > .item",
+  "selectors": [{
+    "name": "text",
+    "selector": ".name > a",
+    "type": "text",
+    "attributeName": "",
+  }, {
+    "name": "magnet",
+    "selector": ".meta > a",
+    "type": "attribute",
+    "attributeName": "href",
+  }, {
+    "name": "size",
+    "selector": ".meta > span",
+    "type": "text",
+    "attributeName": "",
+  }]
+}]
